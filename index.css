@@ -4,7 +4,7 @@ header{
 }
 
 .descrição{
-    background-color: #cfcfcf;
+    background-color: #d4d4d4;
     padding: 20px;
     margin-top:40px;
 }
@@ -13,8 +13,15 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h1{
     font-size: 2.0rem !important;
+}
+
+.col-5{
+    border: 2px solid #c7c7c7;
+    border-radius: 20px;
 }
