@@ -1,19 +1,19 @@
 header{
     background-color: #c7c7c7;
-    padding: 15px;
-}
-
-.col-4{
-    padding: 20px;
+    padding: 15px !important;
 }
 
 .descrição{
+    background-color: #c7c7c7;
+    padding: 20px;
+}
+
+.descricao{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #c7c7c7;
 }
 
 h1{
-    font-size: 2.0rem;
+    font-size: 2.0rem !important;
 }
