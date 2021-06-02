@@ -27,3 +27,8 @@ h1{
     border: 2px solid #c7c7c7 !important;
     border-radius: 20px !important;
 }
+
+.scratch{
+    display: flex;
+    justify-content: center;
+}
