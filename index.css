@@ -37,3 +37,7 @@ h1{
 .jogo{
     padding-top: 10px;
 }
+
+iframe{
+    margin: 0px !important;
+}
