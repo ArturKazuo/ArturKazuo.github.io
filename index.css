@@ -1,7 +1,36 @@
+/* Header */
+
 header{
     background-color: #c7c7c7;
     padding: 15px !important;
 }
+
+h3{
+    font-size: 1.5rem !important;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+}
+
+header nav ul li a{
+    text-decoration: none !important;
+    color: black;
+}
+
+header nav ul li a:hover{
+    color: #5f5f5f;
+}
+
+/* Fim Header */
+
+/************************************************************************/
+
+/* Main */
 
 .descrição{
     background-color: #d4d4d4;
@@ -52,4 +81,71 @@ iframe{
 
 .grupo p{
     padding-left: 10px;
+}
+
+.urls{
+    padding: 20px;
+    justify-content: center;
+}
+
+/**************** Vídeos **************/
+
+.videos{
+    margin-top: 30px;
+    background-color: #d4d4d4;
+    padding: 20px;
+    border: 2px solid #c7c7c7 !important;
+    border-radius: 20px !important;
+}
+
+.videosDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/************* Fim Vídeos ************/
+
+.text-center{
+    margin-top: 20px;
+}
+
+.testimonial-box img {
+    display: inline-block;
+    width: 90px;
+    height:90px;
+    border-radius: 50%;
+    margin: 0 0 15px;
+}
+.testimonial-box h4 {
+    color: #fe4819;
+}
+.testimonial-box p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Fim Mains */
+
+
+
+/* Footer */
+
+footer{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #c7c7c7;
+    width: 100%;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+}
+
+footer p{
+    text-align: center;
+    margin: 0px;
 }
